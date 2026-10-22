@@ -1,0 +1,81 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333333;
+}
+
+/* Sélecteur d'identifiant */
+header {
+    background-color: #2c3e50;
+    color: white;
+}
+
+/* Sélecteur de classe */
+.menu-principal {
+    background-color: #dfe6e9;
+}
+
+/* Sélecteur groupé */
+h1,
+h2,
+h3 {
+    color: #1f4e79;
+}
+
+/* Sélecteur descendant */
+.menu-principal a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+/* Sélecteur enfant */
+.menu-secondaire > ul {
+    background-color: #ecf0f1;
+}
+
+/* Sélecteur suivant immédiat */
+h1 + p {
+    font-style: italic;
+}
+
+/* Sélecteur de frères suivants */
+h2 ~ article {
+    background-color: white;
+}
+
+/* Combinaison : id + classe + élément */
+#contenu .cv h3 {
+    color: darkred;
+}
+
+/* Combinaison : classe + élément */
+.profil img {
+    background-color: white;
+}
+
+/* Combinaison de plusieurs sélecteurs */
+article,
+aside {
+    background-color: #fafafa;
+}
+
+/* Sélecteur d'identifiants groupés */
+#identite,
+#competences,
+#formations {
+    color: #444444;
+}
+
+/* Sélecteur de classe */
+.encart {
+    background-color: #fff3b0;
+}
+
+/* Sélecteur d'identifiant */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+}
